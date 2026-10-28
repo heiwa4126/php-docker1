@@ -1,8 +1,8 @@
 # php-docker1
 
-コンテナを使ってPHPを動かす最初の1歩。
+コンテナを使って PHP を動かす最初の 1 歩。
 
-Alpine で php-fpm で nginx
+Alpine で php-fpm(8.5) で nginx
 
 ## 実行
 
@@ -10,7 +10,7 @@ Alpine で php-fpm で nginx
 docker compose up -d
 ```
 
-で <http://localhost:9090> で `phpinfo()` が見える。
+で <http://localhost:9090> で`phpinfo()`が見える。
 
 ```sh
 docker compose down
