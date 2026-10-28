@@ -17,3 +17,16 @@ docker compose down
 ```
 
 で終了。
+
+### justfile つけました
+
+```sh
+just dev  # ログ出しながら実行
+just down # 終了
+#
+just start # バックグラウンドで実行
+just logs  # ログ出す
+just down  # 終了
+```
+
+[just](https://github.com/casey/just) は apt などでインストールしてください。
